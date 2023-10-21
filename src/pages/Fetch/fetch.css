@@ -1,0 +1,21 @@
+.tbody{
+    background-color:#351c15;
+}
+.btn{
+    background-color:#351c15;
+    color:white;
+}
+.tab{
+    width:3500px;
+}
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+@media (min-device-width:1080px) and (max-device-width:1920px){
+    .tab{
+        width:2000px !important;
+        transform:translate(-220px,0);
+        text-size:50px;
+    }
+}
